@@ -10,7 +10,7 @@ class MainActivityTotoTest{
 
     @Test
     fun `Check Password Length`(){
-        val password = "Passw"
+        val password = "Passw"   
         val errors = verifyPassword(password)
         assertTrue(errors.contains("Le mot de passe doit contenir au moins 6 caractères."))
     }
